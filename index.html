@@ -5,23 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los juguetes de Enriqueta</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>   
 </head>
 <body>
-    <header>
-        <h1 class="título">Los juguetes de Enriqueta</h1>
-        <h2 class="subtítulo">Crecemos juntos</h2>
-        <p class="texto"> Juguetes hechos a mano que acompañan la infancia con amor</p>
-    </header>
+  <header>
+  <img src="./img/logo-enriqueta.png" alt="Logo Enriqueta" class="logo">
+  <h1 class="título">Los juguetes de Enriqueta</h1>
+  <h2 class="subtítulo">Crecemos juntos</h2>
+  <p class="texto">Juguetes hechos a mano que acompañan la infancia con amor</p>
+</header>
+    
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Descubre</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Edades</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Opciones
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Anteriores</a></li>
+            <li><a class="dropdown-item" href="#">Colección Invierno</a></li>
+            <li><a class="dropdown-item" href="#">Sobre nosotros</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
  <main>
     <section class="bienvenida">
         <img class="image-principal" src="./img/Amigos.jpg" alt="Los amigos de Enriqueta">
     </section>
     <section class="productos">
-        <h2 class="galeria"> Más amigos</h2>
-        <img src="./img/Otto.jpg"alt="Muñeco confeccionado en crochet Otto">
-        <img src="./img/Pepa.jpg"alt="Muñeca confeccionada al crochet Peppa">
-    </section>
+  <h2 class="galeria">Más amigos</h2>
+
+  <div class="item">
+    <img src="./img/Otto.jpg" alt="Muñeco confeccionado en crochet Otto">
+  </div>
+  <div class="item">
+    <img src="./img/Pepa.jpg" alt="Muñeca confeccionada al crochet Peppa">
+  </div>
+</section>
  </main>
 
  <footer class="contacto">

@@ -1,0 +1,48 @@
+
+.título{
+    padding: 2rem;
+    text-align: center;
+    font-size-adjust: 2.5 rem;
+    font-weight: bold;
+    background-color:rgb(125, 138, 103)
+}
+.subtítulo{
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(240, 207, 224);
+    font-style: italic;
+    }
+    .texto{
+        text-align: center;
+        font-style: oblique;
+        margin: 2rem auto
+    }
+    .bienvenida{
+        background-color: beige;
+        margin: 2rem auto
+    }
+    .image-principal{
+        border: 2px solid #eee;
+        width: 100%;
+        max-width: 500%; ;
+        display: block;
+        margin: 0;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+    }
+    .productos {
+        border: 2px solid #eee;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+.contacto{
+    text-align: center;
+    font-size-adjust: 2.5 rem;
+    font-weight: bold;
+    background-color:rgb(125, 138, 103)
+}

@@ -1,3 +1,16 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .título{
     padding: 2rem;
@@ -31,18 +44,26 @@
         box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
     }
     .productos {
-        border: 2px solid #eee;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        padding: 1rem;
-        flex-wrap: wrap;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
 
-.contacto{
-    text-align: center;
-    font-size-adjust: 2.5 rem;
-    font-weight: bold;
-    background-color:rgb(125, 138, 103)
+
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contacto p {
+    grid-column: 1 / 2;
+}
+
+.contacto a {
+    grid-column: 2 / 3;
+    justify-self: end;
+    margin-left: 1rem;
 }
